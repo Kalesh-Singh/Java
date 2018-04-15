@@ -15,7 +15,18 @@ public class MathEquation {
 
 	public double getResult () { return result; }
 	
+	public MathEquation () {};
+	public MathEquation (char opcode) {
+		this.opcode = opcode;
+	}
 
+	public MathEquation (char opcode, double leftVal, double rightVal) {
+		this(opcode);
+		this.leftVal = leftVal;
+		this.rightVal = rightVal;
+	}
+
+	
 	public void execute() {
 		switch (opcode) {
 			case 'a':
