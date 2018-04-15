@@ -1,10 +1,20 @@
 package com.javafundamentals.calcengine;
 
 public class MathEquation {
-	public double leftVal;
-	public double rightVal;
-	public char opcode;
-	public double result;
+	private double leftVal;
+	private double rightVal;
+	private char opcode;
+	private double result;
+
+	public double getLeftVal () { return leftVal; } 
+	public void setLeftVal (double leftVal) { this.leftVal = leftVal; }
+	public double getRightVal () { return rightVal; }
+	public void setRightVal (double rightVal) { this.rightVal = rightVal; }
+	public char getOpcode () { return opcode; }
+	public void setOpcode (char opcode) { this.opcode = opcode; }
+
+	public double getResult () { return result; }
+	
 
 	public void execute() {
 		switch (opcode) {
