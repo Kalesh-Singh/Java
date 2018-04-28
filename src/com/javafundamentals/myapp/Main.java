@@ -1,4 +1,14 @@
-package com.javafundamentals.calcengine;
+package com.javafundamentals.myapp;
+
+import com.javafundamentals.calcengine.CalculateHelper;
+import com.javafundamentals.calcengine.InvalidStatementException;
+import com.javafundamentals.calcengine.MathEquation;
+import com.javafundamentals.calcengine.CalculateBase;
+import com.javafundamentals.calcengine.Adder;
+import com.javafundamentals.calcengine.Subtracter;
+import com.javafundamentals.calcengine.Multiplier;
+import com.javafundamentals.calcengine.Divider;
+
 
 public class Main {
 	public static void main (String[] args) {
