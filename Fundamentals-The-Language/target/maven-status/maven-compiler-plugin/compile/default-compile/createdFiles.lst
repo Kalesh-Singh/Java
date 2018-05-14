@@ -5,6 +5,7 @@ com/javafundamentals/calcengine/CalculateHelper.class
 com/javafundamentals/myapp/Main.class
 com/javafundamentals/calcengine/MathCommand.class
 com/javafundamentals/calcengine/DynamicHelper.class
+com/javafundamentals/calcengine/PowerOf.class
 com/javafundamentals/calcengine/Multiplier.class
 com/javafundamentals/calcengine/Divider.class
 com/javafundamentals/thejavalanguage/letsgetlogical/Main.class
